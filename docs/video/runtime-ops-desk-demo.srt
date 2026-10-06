@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:03,665
+This is Runtime Ops Desk: the working desk for Runtime's
+
+2
+00:00:03,415 --> 00:00:07,385
+Founding AI Ops seat. Public information, synthetic data, and
+
+3
+00:00:07,135 --> 00:00:08,910
+every figure is labelled.
+
+4
+00:00:08,960 --> 00:00:12,294
+Start Here maps the four jobs in the post, customer
+
+5
+00:00:12,044 --> 00:00:15,983
+experience, internal agents, cadence and product feedback, to
+
+6
+00:00:15,733 --> 00:00:16,769
+five modules.
+
+7
+00:00:16,820 --> 00:00:20,993
+The Automation Map ranks twenty four internal workflows with a
+
+8
+00:00:20,743 --> 00:00:24,790
+visible formula. Support triage comes first: most hours, low
+
+9
+00:00:24,540 --> 00:00:25,550
+sensitivity.
+
+10
+00:00:25,600 --> 00:00:28,891
+Change a weight and the ranking and the payback recalculate in
+
+11
+00:00:28,641 --> 00:00:29,480
+the browser.
+
+12
+00:00:29,530 --> 00:00:33,351
+Customer Desk scores six archetype accounts. Acquirer B is
+
+13
+00:00:33,101 --> 00:00:37,170
+Amber: incidents, overrides, and a renewal inside ninety days.
+
+14
+00:00:37,219 --> 00:00:40,760
+Each account gets this week's actions from fixed rules, and a
+
+15
+00:00:40,510 --> 00:00:41,839
+QBR brief to export.
+
+16
+00:00:41,890 --> 00:00:45,424
+The Runbook Library holds ten payment procedures with public
+
+17
+00:00:45,174 --> 00:00:48,489
+sources. Pick duplicate charge and refund, and raise the
+
+18
+00:00:48,239 --> 00:00:49,530
+approval threshold.
+
+19
+00:00:49,579 --> 00:00:53,046
+The approval policy updates live. Read only by default, with
+
+20
+00:00:52,796 --> 00:00:55,619
+the never-do list carried over from the runbook.
+
+21
+00:00:55,670 --> 00:00:59,594
+Run Review scores agent runs on a six-part rubric. This payout
+
+22
+00:00:59,344 --> 00:01:02,439
+hold was released without approval, so it fails.
+
+23
+00:01:02,490 --> 00:01:05,980
+Findings roll up into a ranked Friction Log for engineering.
+
+24
+00:01:06,030 --> 00:01:09,523
+Operating Cadence rolls metrics and customer health into a
+
+25
+00:01:09,273 --> 00:01:11,480
+board update, exported as Markdown.
+
+26
+00:01:11,530 --> 00:01:15,287
+And Field Notes logs my own Runtime onboarding: the API check
+
+27
+00:01:15,037 --> 00:01:18,680
+said no key while the guide said live, with a proposed fix.
