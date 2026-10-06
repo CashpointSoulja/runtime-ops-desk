@@ -1,0 +1,10 @@
+import type { Account } from "../health";
+
+export const ACCOUNTS: Account[] = [
+  { id: "acc-issuer-a", name: "Issuer A", archetype: "Card issuer", renewalDays: 75, teamsLive: { support: true, cs: true, fraudRisk: false }, runsPerWeek: 260, approvalRate: 0.86, costPerCase: 1.1, overrideRate: 0.08, incidents30d: 0, execEngagement: 3, champion: "Head of Card Ops", notes: "Support and CS live. Next team on the path is fraud and risk." },
+  { id: "acc-acquirer-b", name: "Acquirer B", archetype: "Acquirer / ISO", renewalDays: 60, teamsLive: { support: true, cs: false, fraudRisk: false }, runsPerWeek: 70, approvalRate: 0.62, costPerCase: 2.4, overrideRate: 0.22, incidents30d: 1, execEngagement: 1, champion: "Payments Ops Lead", notes: "Single queue live. Approvals often rejected." },
+  { id: "acc-lender-c", name: "Lender C", archetype: "Lender", renewalDays: 210, teamsLive: { support: true, cs: true, fraudRisk: true }, runsPerWeek: 410, approvalRate: 0.91, costPerCase: 0.9, overrideRate: 0.05, incidents30d: 0, execEngagement: 2, champion: "VP Operations", notes: "All three teams live." },
+  { id: "acc-platform-d", name: "Platform D", archetype: "Payments platform", renewalDays: 140, teamsLive: { support: true, cs: true, fraudRisk: false }, runsPerWeek: 180, approvalRate: 0.78, costPerCase: 1.7, overrideRate: 0.12, incidents30d: 2, execEngagement: 2, champion: "Director of Support", notes: "Two incidents this month after a processor change." },
+  { id: "acc-issuer-e", name: "Issuer E", archetype: "Card issuer", renewalDays: 30, teamsLive: { support: true, cs: false, fraudRisk: false }, runsPerWeek: 40, approvalRate: 0.55, costPerCase: 3.2, overrideRate: 0.35, incidents30d: 3, execEngagement: 0, champion: "Ops Analyst", notes: "Renewal in a month. Usage low, no exec sponsor." },
+  { id: "acc-platform-f", name: "Platform F", archetype: "Payments platform", renewalDays: 300, teamsLive: { support: true, cs: false, fraudRisk: false }, runsPerWeek: null, approvalRate: 0.8, costPerCase: null, overrideRate: 0.1, incidents30d: 0, execEngagement: null, champion: "CTO", notes: "New account; analytics not wired yet." },
+];
