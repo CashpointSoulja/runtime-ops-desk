@@ -1,5 +1,5 @@
 import { PageHead } from "@/components/ui";
-import { FIELD_LOG, SUGGESTIONS, OBSERVATIONS, SHOTS } from "@/lib/fieldnotes";
+import { FIELD_LOG, SUGGESTIONS, OBSERVATIONS, SCREENS } from "@/lib/fieldnotes";
 
 export const metadata = { title: "Field Notes" };
 
@@ -15,8 +15,8 @@ export default function FieldNotes() {
       <h2>Log</h2>
       <ol className="steps">{FIELD_LOG.map((x, i) => <li key={i}>{x}</li>)}</ol>
 
-      <h2>Screenshots</h2>
-      <div className="grid g3">{SHOTS.map((s) => <div key={s} className="shot-slot"><div className="mono">{s}</div>Screenshot not yet supplied. Slot kept empty rather than recreated.</div>)}</div>
+      <h2>The three screens, in words</h2>
+      <div className="grid g3">{SCREENS.map((s) => <section key={s.title} className="card"><h3>{s.title}</h3><p className="small"><strong>Shown.</strong> {s.shown}</p><p className="small"><strong>What I did.</strong> {s.did}</p><p className="small" style={{ margin: 0 }}><strong>What it said.</strong> {s.said}</p></section>)}</div>
 
       <h2>What an ops owner would notice</h2>
       <p className="small muted">Observations from one session, not claims about how Runtime works inside.</p>

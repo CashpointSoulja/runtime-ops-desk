@@ -99,7 +99,6 @@ ol.steps, ul.clean { padding-left: 20px; margin: 0 0 0.8em; }
 ol.steps li, ul.clean li { margin-bottom: 4px; }
 .skip { position: absolute; left: -9999px; }
 .skip:focus { left: 12px; top: 12px; z-index: 50; background: var(--panel); padding: 8px 12px; border: 1px solid var(--line); }
-.shot-slot { border: 1px dashed #c8cfc3; border-radius: var(--r-lg); padding: 18px; color: var(--ink-2); background: var(--soft); font-size: 13px; }
 
 @media (max-width: 900px) {
   .app { grid-template-columns: minmax(0, 1fr); }

@@ -1,107 +1,155 @@
 1
-00:00:00,000 --> 00:00:03,665
-This is Runtime Ops Desk: the working desk for Runtime's
+00:00:00,000 --> 00:00:01,653
+This is Runtime Ops Desk:
 
 2
-00:00:03,415 --> 00:00:07,385
-Founding AI Ops seat. Public information, synthetic data, and
+00:00:01,694 --> 00:00:04,936
+the working desk for Runtime's Founding AI Ops seat.
 
 3
-00:00:07,135 --> 00:00:08,910
-every figure is labelled.
+00:00:04,977 --> 00:00:07,293
+Public information and synthetic data,
 
 4
-00:00:08,960 --> 00:00:12,294
-Start Here maps the four jobs in the post, customer
+00:00:07,333 --> 00:00:09,330
+with every figure labelled.
 
 5
-00:00:12,044 --> 00:00:15,983
-experience, internal agents, cadence and product feedback, to
+00:00:09,450 --> 00:00:12,474
+Start Here maps the four jobs in the post
 
 6
-00:00:15,733 --> 00:00:16,769
-five modules.
+00:00:12,514 --> 00:00:14,080
+to five working modules:
 
 7
-00:00:16,820 --> 00:00:20,993
-The Automation Map ranks twenty four internal workflows with a
+00:00:14,120 --> 00:00:16,647
+customer experience, internal agents,
 
 8
-00:00:20,743 --> 00:00:24,790
-visible formula. Support triage comes first: most hours, low
+00:00:16,687 --> 00:00:19,583
+the operating cadence, and product feedback.
 
 9
-00:00:24,540 --> 00:00:25,550
-sensitivity.
+00:00:19,700 --> 00:00:23,210
+The Automation Map ranks twenty four internal workflows
 
 10
-00:00:25,600 --> 00:00:28,891
-Change a weight and the ranking and the payback recalculate in
+00:00:23,250 --> 00:00:25,338
+with a visible formula.
 
 11
-00:00:28,641 --> 00:00:29,480
-the browser.
+00:00:25,378 --> 00:00:27,400
+Support triage comes first:
 
 12
-00:00:29,530 --> 00:00:33,351
-Customer Desk scores six archetype accounts. Acquirer B is
+00:00:27,440 --> 00:00:29,933
+the most hours, and low sensitivity.
 
 13
-00:00:33,101 --> 00:00:37,170
-Amber: incidents, overrides, and a renewal inside ninety days.
+00:00:30,050 --> 00:00:31,137
+Change a weight,
 
 14
-00:00:37,219 --> 00:00:40,760
-Each account gets this week's actions from fixed rules, and a
+00:00:31,177 --> 00:00:33,993
+and the ranking and payback recalculate in the browser.
 
 15
-00:00:40,510 --> 00:00:41,839
-QBR brief to export.
+00:00:34,110 --> 00:00:36,882
+Customer Desk scores six archetype accounts.
 
 16
-00:00:41,890 --> 00:00:45,424
-The Runbook Library holds ten payment procedures with public
+00:00:36,922 --> 00:00:38,581
+Acquirer B is Amber:
 
 17
-00:00:45,174 --> 00:00:48,489
-sources. Pick duplicate charge and refund, and raise the
+00:00:38,621 --> 00:00:40,482
+incidents, overrides,
 
 18
-00:00:48,239 --> 00:00:49,530
-approval threshold.
+00:00:40,522 --> 00:00:42,712
+and a renewal inside ninety days.
 
 19
-00:00:49,579 --> 00:00:53,046
-The approval policy updates live. Read only by default, with
+00:00:42,830 --> 00:00:45,746
+Each account gets this week's actions from fixed rules,
 
 20
-00:00:52,796 --> 00:00:55,619
-the never-do list carried over from the runbook.
+00:00:45,786 --> 00:00:47,849
+plus a QBR brief to export.
 
 21
-00:00:55,670 --> 00:00:59,594
-Run Review scores agent runs on a six-part rubric. This payout
+00:00:47,970 --> 00:00:50,652
+The Runbook Library holds ten payment procedures,
 
 22
-00:00:59,344 --> 00:01:02,439
-hold was released without approval, so it fails.
+00:00:50,692 --> 00:00:52,259
+each with public sources.
 
 23
-00:01:02,490 --> 00:01:05,980
-Findings roll up into a ranked Friction Log for engineering.
+00:00:52,299 --> 00:00:54,671
+Here, duplicate charge and refund:
 
 24
-00:01:06,030 --> 00:01:09,523
-Operating Cadence rolls metrics and customer health into a
+00:00:54,711 --> 00:00:56,480
+raise the approval threshold.
 
 25
-00:01:09,273 --> 00:01:11,480
-board update, exported as Markdown.
+00:00:56,600 --> 00:00:58,671
+The approval policy updates live.
 
 26
-00:01:11,530 --> 00:01:15,287
-And Field Notes logs my own Runtime onboarding: the API check
+00:00:58,711 --> 00:01:00,252
+Read only by default,
 
 27
-00:01:15,037 --> 00:01:18,680
-said no key while the guide said live, with a proposed fix.
+00:01:00,292 --> 00:01:02,799
+with the never-do list carried over from the runbook.
+
+28
+00:01:02,920 --> 00:01:06,145
+Run Review scores agent runs on a six-part rubric.
+
+29
+00:01:06,185 --> 00:01:08,642
+This payout hold was released without approval,
+
+30
+00:01:08,682 --> 00:01:09,852
+so the run fails.
+
+31
+00:01:09,970 --> 00:01:12,183
+Findings roll up into the Friction Log,
+
+32
+00:01:12,223 --> 00:01:13,725
+for engineering to fix.
+
+33
+00:01:14,010 --> 00:01:17,079
+Operating Cadence rolls metrics and customer health
+
+34
+00:01:17,119 --> 00:01:18,460
+into a board update,
+
+35
+00:01:18,500 --> 00:01:20,253
+exported as Markdown.
+
+36
+00:01:20,370 --> 00:01:23,148
+Field Notes logs my own Runtime onboarding.
+
+37
+00:01:23,188 --> 00:01:25,034
+The API check said no key
+
+38
+00:01:25,074 --> 00:01:26,512
+while the guide said live,
+
+39
+00:01:26,552 --> 00:01:27,903
+with a proposed fix.

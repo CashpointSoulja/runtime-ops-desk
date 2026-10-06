@@ -53,4 +53,4 @@ Desktop is 1366×900, mobile is 390×844.
 
 ## Demo video
 
-`docs/video/runtime-ops-desk-demo.mp4`: 1080×1920, 78.8 s, 11.1 MB, H.264 and AAC, recorded on the live site. Burned-in subtitles; the same text is in `runtime-ops-desk-demo.srt`.
+`docs/video/runtime-ops-desk-demo.mp4`: 1080×1920, 88.1 s, 11.8 MB, H.264 and AAC, recorded on the live site. Each caption is one whole phrase, at most two lines, timed to that phrase's voice clip; the same text is in `runtime-ops-desk-demo.srt`. A speech-to-text pass over the voiceover read back "Founding" and "Friction Log" correctly.

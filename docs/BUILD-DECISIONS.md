@@ -13,6 +13,6 @@
 | One `docs/SOURCES.md` instead of `sources.md` + `SOURCES.md` | The two names collide on case-insensitive file systems. | Spec's lowercase name not used. |
 | Docs generated from the same data as the app (`npm run docs:export`) | Role map, sources, runbooks and field notes cannot drift from the site. | Edit the TypeScript, not the Markdown, for those files. |
 | One job-post line quoted with `[...]` | It lists specific products by name; the original is linked. | Not fully verbatim on that line. |
-| Missing Field Notes screenshots left as labelled empty slots | Recreating them would be fabricating evidence. | Page has three empty boxes until they are supplied. |
+| Field Notes screens described in plain text, not shown as images | The three screenshots were never supplied, and recreating them would fabricate evidence. Each screen is written up from the recorded log only: what was shown, what I did, what it said. | No image placeholders on the page or in the docs. |
 | Official Runtime mark from runtm.com, palette and fonts sampled from the live site | Feels native to the team reviewing it. | Clearly marked independent concept, not a Runtime product. |
 | localStorage with one Reset button | Edits survive reloads; one click returns to defaults. | Per browser only. |

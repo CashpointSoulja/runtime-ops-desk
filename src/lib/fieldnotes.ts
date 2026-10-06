@@ -25,4 +25,23 @@ export const SUGGESTIONS = [
   { title: "Make Skip on invites skip", why: "Skip should not open the invite modal. One click, no cancel." },
 ];
 
-export const SHOTS = ["01-quickstart-first-agent-setup.png", "02-agent-drafted-ready-to-build.png", "03-first-run-triage-and-api-key-error.png"];
+export const SCREENS = [
+  {
+    title: "Screen 1: Quickstart, first agent setup",
+    shown: "A Quickstart with three steps: create an organization, invite teammates, set up a first agent. A progress bar across the top and a side panel that fills in as I answer.",
+    did: "Created a workspace and skipped invites (Skip opened an invite modal first; I cancelled it and skipped again). Then answered four short questions: Ops; \"Triage inbound requests\"; skipped where requests live, as nothing was connected; the Runtime dashboard as where the agent lives.",
+    said: "Three setup steps and four questions. No question about approval thresholds, audit trail or spend limits.",
+  },
+  {
+    title: "Screen 2: Agent drafted, ready to build",
+    shown: "A proposed \"Ops Request Triage Agent\" with a plain-English summary and a \"Set this up (~10 min)\" button.",
+    did: "Clicked the button to set it up.",
+    said: "The button promised about 10 minutes. Setup finished in about 2.",
+  },
+  {
+    title: "Screen 3: First run triage and the API key error",
+    shown: "A setup agent asking for one real inbound request to run a live triage before anything is connected, then the triage result, and a session footer showing \"No key\".",
+    did: "Pasted a test request I wrote myself, labelled as a test: 14 stuck merchant payouts, about 38,400 USD, books close Friday.",
+    said: "Category settlement/reconciliation mismatch; urgency High with reasons; a suggested owner; key facts; any ledger correction or re-issued payout needs finance sign-off; a drafted first reply asking for the settlement batch ID, the 14 payout IDs and the system of record. Verifying the dashboard connection then hit an API authentication error and told me to check or rotate the API key in Settings. The flow still declared the agent \"Live\".",
+  },
+];

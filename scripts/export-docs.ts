@@ -4,7 +4,7 @@ import { SOURCES, sourceById } from "../src/lib/sources";
 import { SEAT_ROWS, NOT_SHOWN, JOB_URL } from "../src/lib/seat";
 import { RUNGS, type Claim } from "../src/lib/operate";
 import { NINETY } from "../src/lib/ninety";
-import { FIELD_LOG, OBSERVATIONS, SUGGESTIONS, SHOTS } from "../src/lib/fieldnotes";
+import { FIELD_LOG, OBSERVATIONS, SUGGESTIONS, SCREENS } from "../src/lib/fieldnotes";
 
 const SITE = "https://cashpointsoulja.github.io/runtime-ops-desk";
 const cite = (id: string) => sourceById(id);
@@ -99,12 +99,9 @@ const usage = [
   "",
   ...SUGGESTIONS.map((s, i) => `${i + 1}. **${s.title}.** ${s.why}`),
   "",
-  "## Screenshots",
+  "## The three screens, in words",
   "",
-  "Not yet supplied. The app keeps a labelled empty slot for each rather than recreating them:",
-  "",
-  ...SHOTS.map((s) => `- \`${s}\``),
-  "",
+  ...SCREENS.flatMap((s) => [`### ${s.title}`, "", `- Shown: ${s.shown}`, `- What I did: ${s.did}`, `- What it said: ${s.said}`, ""]),
   "## What this is not",
   "",
   "One session, one test request I wrote myself, nothing connected. It says nothing about how Runtime behaves with connected tools or real customer data.",
